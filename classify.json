@@ -1,0 +1,90 @@
+{
+  "name": "AVALON",
+  "topics": {
+    "recon": "avalon-recon",
+    "poc": "avalon-poc",
+    "c2": "avalon-c2",
+    "cred": "avalon-cred",
+    "fuzz": "avalon-fuzz",
+    "platform": "avalon-platform"
+  },
+  "buckets": {
+    "recon": [
+      "ENScan_GO",
+      "Kunyu",
+      "TideFinger",
+      "WhatWeb",
+      "ZoomEye-python",
+      "dismap",
+      "fingerprint",
+      "fingers",
+      "fscan",
+      "gogo",
+      "httpx",
+      "ksubdomain",
+      "qscan",
+      "srcradar",
+      "urlfounder",
+      "wafw00f",
+      "wappalyzergo"
+    ],
+    "poc": [
+      "CVE-2024-53677-S2-067",
+      "CVE-2026-109618",
+      "CVE-2026-109619",
+      "CVE-2026-34197",
+      "CVE-2026-34486",
+      "CVE-2026-42530",
+      "CVE-2026-48907",
+      "CVE-2026-48908-PoC",
+      "CVE-2026-49952",
+      "CVE-2026-55200",
+      "CVE-2026-84645",
+      "JYso",
+      "PoC-in-GitHub",
+      "afrog",
+      "ai_bobao",
+      "kunpeng",
+      "neutron",
+      "next-16.2.4-pocs",
+      "nextssrf",
+      "nuclei",
+      "php2shell",
+      "pocsuite3",
+      "proton",
+      "templates",
+      "watchTowr-vs-Splunk-CVE-2026-20253"
+    ],
+    "c2": [
+      "Stowaway",
+      "chisel",
+      "rem"
+    ],
+    "cred": [
+      "HackBrowserData",
+      "MDUT",
+      "ddddocr",
+      "hashcat"
+    ],
+    "fuzz": [
+      "ffuf",
+      "spray"
+    ],
+    "platform": [
+      "BurpCrypto",
+      "CDK",
+      "HaE",
+      "Honeynet",
+      "arco-design",
+      "cyber-agent",
+      "cyber-harness",
+      "cyber-ui",
+      "dsh-our-free-model",
+      "f8x",
+      "impacket",
+      "picker",
+      "rea",
+      "taste-skill"
+    ]
+  }
+}
